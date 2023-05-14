@@ -34,4 +34,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(TelaSobre);
 
     }
+
+    public  void BotaoTeste(View v){
+
+        Intent TelaTeste = new Intent(this, Teste.class);
+        startActivity(TelaTeste);
+
+    }
 }

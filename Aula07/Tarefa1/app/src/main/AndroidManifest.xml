@@ -12,6 +12,9 @@
         android:theme="@style/Theme.Tarefa1"
         tools:targetApi="31">
         <activity
+            android:name=".Teste"
+            android:exported="false" />
+        <activity
             android:name=".SucessoLogin"
             android:exported="false" />
         <activity
