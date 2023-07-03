@@ -15,48 +15,52 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Rastreador"
+        android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".AlterarSenha"
+            android:name=".TelaLogin.ErroInscreverse"
             android:exported="false" />
         <activity
-            android:name=".ErroAdicionarDispositivo"
+            android:name=".Conta.AlterarSenha"
             android:exported="false" />
         <activity
-            android:name=".SucessoAdicionarDispositivo"
+            android:name=".TelaAdicionarDispositivo.ErroAdicionarDispositivo"
             android:exported="false" />
         <activity
-            android:name=".AdicionarDispositivo"
+            android:name=".TelaAdicionarDispositivo.SucessoAdicionarDispositivo"
             android:exported="false" />
         <activity
-            android:name=".Historico"
+            android:name=".TelaAdicionarDispositivo.AdicionarDispositivo"
             android:exported="false" />
         <activity
-            android:name=".Configuracao"
+            android:name=".TelaHistorico.Historico"
             android:exported="false" />
         <activity
-            android:name=".Excluir"
+            android:name=".TelaConfiguracao.Configuracao"
             android:exported="false" />
         <activity
-            android:name=".Mapa"
+            android:name=".TelaExcluirDispositivo.Excluir"
             android:exported="false" />
         <activity
-            android:name=".Conta"
+            android:name=".TelaMapaAtual.Mapa"
             android:exported="false" />
         <activity
-            android:name=".Dispositivos"
+            android:name=".Conta.Conta"
             android:exported="false" />
         <activity
-            android:name=".ErroLogin"
+            android:name=".TelaDispositivos.Dispositivos"
             android:exported="false" />
         <activity
-            android:name=".EsqueceuSenha"
+            android:name=".TelaLogin.ErroLogin"
             android:exported="false" />
         <activity
-            android:name=".Inscrever"
+            android:name=".TelaLogin.EsqueceuSenha"
             android:exported="false" />
         <activity
-            android:name=".Login"
+            android:name=".TelaLogin.Inscrever"
+            android:exported="false" />
+        <activity
+            android:name=".TelaLogin.Login"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

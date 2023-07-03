@@ -13,7 +13,6 @@
   app:cardPreventCornerOverlap="true"
   app:cardUseCompatPadding="true"
   app:layout_constraintTop_toBottomOf="@+id/button4"
-    android:onClick="BotaoSelecionadoDispositivo"
   tools:ignore="MissingConstraints">
 
   <ImageView
@@ -25,11 +24,11 @@
       android:src="@drawable/ic_maps" />
 
   <ImageButton
-      android:id="@+id/imageButton2"
+      android:id="@+id/BotaoMenu"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:backgroundTint="@color/white"
-      android:onClick="BotaoInfo"
+
       android:layout_margin="5dp"
       app:srcCompat="@drawable/ic_menu" />
 

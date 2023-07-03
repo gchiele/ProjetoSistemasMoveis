@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Mapa">
+    tools:context=".TelaMapaAtual.Mapa">
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -76,7 +76,7 @@
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
 
         <TextView
-            android:id="@+id/textView13"
+            android:id="@+id/CampoNome"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="NOME DISPOSITIVO"
@@ -86,7 +86,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/textView14"
+            android:id="@+id/CampoUltimaAtualizacao"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Ultima Atualização: hoje as 20:30"
@@ -94,7 +94,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.502"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView13" />
+            app:layout_constraintTop_toBottomOf="@+id/CampoNome" />
 
         <com.google.android.gms.maps.MapView
             android:id="@+id/mapView"
@@ -104,7 +104,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView14" />
+            app:layout_constraintTop_toBottomOf="@+id/CampoUltimaAtualizacao" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -168,6 +168,19 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnAtualizaLocalizacao"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/colorBlue"
+        android:drawableLeft="@drawable/ic_minha_localizacao"
+        android:drawablePadding="1dp"
+        android:onClick="BotaoAtualizaLocalizacao"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
 

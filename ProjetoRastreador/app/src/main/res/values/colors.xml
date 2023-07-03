@@ -5,4 +5,5 @@
     <color name="colorRed">#FF0000</color>
     <color name="colorGreen">#198754</color>
     <color name="colorBlue">#0055FE</color>
+    <color name="my_light_primary">#0055FE</color>
 </resources>
